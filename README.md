@@ -30,6 +30,9 @@ Then once code generated build it using following command.
 >mvn clean install
 Then copy web application and deploy it in application server(tomcat or any other server)
 
+Then deploy this application on tomcat and access it using following URL.
+http://localhost:8080/test-app/v0.9/
+
 
 ## Support
 Contact the team at:
