@@ -218,27 +218,14 @@ $(document).ready(function () {
     //end typeahead part----------------------------------------------------------------------------------------------
 
     $(".form-signin").submit(function (e) {
+        var username = document.getElementById("inputUserName").value;
+        var password = document.getElementById("inputPassword").value;
+        if ( username == "admin" && password == "admin"){
+            //window.location.href = "/test-app/v0.9";
+            window.location = "/test-app/v0.9?user="+username; // Redirecting to other page.
+            return false;
+        }
 
-        var url = "../services/me"; // the script where you handle the form input.
-
-        $.ajax({
-            type: "GET",
-            url: url,
-            data: $(".form-signin").serialize(), // serializes the form's elements.
-            success: function (data) {
-                //var json = JSON.parse(data);
-		//window.location.href = "/api/am/publisher/v0.9/";                
-		//if (json.type == ok) {
-                  window.location.href = "/api/am/publisher/v0.9/"; 
-                //}
-
-            },
-            error: function (xhr, error) {
-                alert(error);
-            }
-        });
-
-        e.preventDefault(); // avoid to execute the actual submit of the form.
     });
 
 });

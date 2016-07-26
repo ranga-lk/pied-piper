@@ -61,13 +61,13 @@
         <div class="collapse navbar-collapse navbar-menubuilder">
             <ul class="nav navbar-nav navbar-left">
                 <li class="active">
-                    <a href="/book-keeper">Home</a>
+                    <a href="/test-app/v0.9/">Home</a>
                 </li>
                 <li>
-                    <a href="/book-keeper/invoice/invoice.jsp">Invoice</a>
+                    <a href="/test-app/v0.9/">Invoice</a>
                 </li>
                 <li>
-                    <a href="/book-keeper/inventory/add.jsp">Inventory</a>
+                    <a href="/test-app/v0.9/">Inventory</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-left pull-right">
@@ -84,10 +84,17 @@
                     <div class="dropdown-menu pull-right">
                         <ul class="nav">
                             <li>
-                                <a href="/book-keeper/login/logout.jsp">Logout</a>
+                                <a href="/test-app/v0.9/login/logout.jsp">Logout</a>
                             </li>
                         </ul>
                     </div>
+                </li>
+                <%
+                    }
+                    else{
+                %>
+                <li class="active">
+                    <a href="/test-app/v0.9/login/login.jsp">Login</a>
                 </li>
                 <%
                     }
