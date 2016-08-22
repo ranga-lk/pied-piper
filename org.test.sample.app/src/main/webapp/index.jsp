@@ -21,12 +21,23 @@
     <script>
         $(function () {
             $("#header").load("header.jsp");
+	    $("#sidebar").load("sidebar.jsp");
             $("#footer").load("footer.jsp");
         });
     </script>
 </head>
 <body>
 <div id="header"></div>
+
+
+<div id="sidebar">
+        <!-- Page Content -->
+</div>
+<!-- /#page-content-wrapper -->
+
+
+<div id="page-content-wrapper">
+
 <div class="container">
     <div id="container">
         <div class="row">
@@ -35,6 +46,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 <div id="footer"></div>
 </body>

@@ -67,7 +67,7 @@
                     <a href="/test-app/v0.9/">Invoice</a>
                 </li>
                 <li>
-                    <a href="/test-app/v0.9/">Inventory</a>
+                    <a href="/test-app/v0.9/user/user.jsp">Inventory</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-left pull-right">
