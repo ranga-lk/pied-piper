@@ -36,18 +36,6 @@
 <!-- /#page-content-wrapper -->
 
 
-<div id="page-content-wrapper">
-
-<div class="container">
-    <div id="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>Well come to Sample App</h2>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
 <div id="footer"></div>
 </body>
 </html>

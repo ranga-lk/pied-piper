@@ -35,7 +35,7 @@ String selectedUser = request.getParameter("selecteduser");
     </script>
 </head>
     <body>    
-	<div id="header">Add new User</div>
+	<div id="header"></div>
 <div id="sidebar">
         <!-- Page Content -->
 </div>
@@ -43,27 +43,23 @@ String selectedUser = request.getParameter("selecteduser");
   <div class="row">
 	<form>
 					<div class="col-sm-12">
-					<div class="form-group">
-							<label>User ID</label>
-							<input type="text" placeholder="Enter Unique user ID" class="form-control">
-						</div>	
 						<div class="row">
 							<div class="col-sm-6 form-group">
-								<label>First Name</label>
-								<input type="text" placeholder="Enter First Name Here.." class="form-control">
+								<label>Product Name</label>
+								<input type="text" placeholder="Enter Product Name Here.." class="form-control">
 							</div>
 							<div class="col-sm-6 form-group">
-								<label>Last Name</label>
-								<input type="text" placeholder="Enter Last Name Here.." class="form-control">
+								<label>Unit Price</label>
+								<input type="text" placeholder="Enter Unit Price Here.." class="form-control">
 							</div>
 						</div>					
 						<div class="form-group">
-							<label>Address</label>
-							<textarea placeholder="Enter Address Here.." rows="3" class="form-control"></textarea>
+							<label>Description</label>
+							<textarea placeholder="Enter Description Here.." rows="3" class="form-control"></textarea>
 						</div>						
 					<div class="form-group">
-						<label>Phone Number</label>
-						<input type="text" placeholder="Enter Phone Number Here.." class="form-control">
+						<label>Product Code</label>
+						<input type="text" placeholder="Enter Prodcut Code Here.." class="form-control">
 					</div>		
 					<div class="form-group">
 						<label>Email Address</label>

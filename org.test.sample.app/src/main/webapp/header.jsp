@@ -11,6 +11,7 @@
 <style>
     #custom-bootstrap-menu.navbar-default .navbar-brand {
         color: rgba(119, 119, 119, 1);
+	margin: 0 auto;
     }
 
     #custom-bootstrap-menu.navbar-default {
@@ -62,9 +63,6 @@
             <ul class="nav navbar-nav navbar-left">
                 <li class="active">
                     <a href="/test-app/v0.9/">Home</a>
-                </li>
-                <li>
-                    <a href="/test-app/v0.9/">Invoice</a>
                 </li>
                 <li>
                     <a href="/test-app/v0.9/user/user.jsp">Inventory</a>

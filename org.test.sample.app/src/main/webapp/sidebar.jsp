@@ -31,10 +31,16 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/test-app/v0.9/user/user.jsp">Users</a>
+                    <a href="/test-app/v0.9/user/user.jsp">Add User</a>
                 </li>
                 <li>
-                    <a href="/test-app/v0.9/user/list-users.jsp">Add User</a>
+                    <a href="/test-app/v0.9/user/list-users.jsp">Users List</a>
+                </li>
+		<li>
+                    <a href="/test-app/v0.9/product/product.jsp">Add Product</a>
+                </li>
+                <li>
+                    <a href="/test-app/v0.9/product/list-products.jsp">Products</a>
                 </li>
                 <li>
                     <a href="#">Overview</a>

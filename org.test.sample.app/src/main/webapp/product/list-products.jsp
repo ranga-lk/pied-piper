@@ -60,7 +60,7 @@
                                 <tr>
                                     <td>
                                         <img src="http://bootdey.com/img/Content/user_1.jpg" alt="">
-                                        <a href="/test-app/v0.9/user/user.jsp?selecteduser=Full name" class="user-link">Full name 1</a>
+                                        <a href="#" class="user-link">Full name 1</a>
                                         <span class="user-subhead">Member</span>
                                     </td>
                                     <td>2013/08/12</td>
